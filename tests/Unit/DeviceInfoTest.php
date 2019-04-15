@@ -15,7 +15,7 @@ class DeviceInfoTest extends TestCase
      * @return void
      */
 
-    //use RefreshDatabase;
+    use RefreshDatabase;
 
     public function testCreateDeviceInfo()
     {
