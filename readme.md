@@ -18,17 +18,18 @@ It is a REST Api that stores user's public ip, device information and his OS.
 - barryvdh/laravel-cors
 
 ## Software
-To reproduce the app you will need to install a virtual Machine and vagrant
-more on [Homestead Pages](https://laravel.com/docs/5.5/homestead)
+To reproduce the app you will need to install a virtual Machine, Vagrant, Postman or something similar
+- [Homestead Page](https://laravel.com/docs/5.5/homestead)
+- [Postman Page](https://www.getpostman.com/)
  
 ## Instructions
 
 - Run the container with the command **vagrant up**
-- You need to enter Vagrant's environment with admin permission with **vagrant shh**
-- Go to  **home/vagrant/code** path where the app is located 
-- Run the test with  command **vendor/bin/phpunit**
+- You need to enter Vagrant's environment with the command **vagrant shh**
+- Navigate to **home/vagrant/code** path where the app is located 
+- Run the tests with the command **vendor/bin/phpunit**
 - Run the migrations with **php artisan migrate** command
-- Seed the database with random content **php artisan db:seed**
+- Seed the database with random content with the command **php artisan db:seed**
  - Access [devicedetector.test](http://devicedetector.test/device-info)
  
  ## Endpoints
