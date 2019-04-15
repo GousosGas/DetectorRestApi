@@ -25,11 +25,11 @@ more on [Homestead Pages](https://laravel.com/docs/5.5/homestead)
 
 - Run the container with the command **vagrant up**
 - You need to enter Vagrant's environment with admin permission with **vagrant shh**
-- go to  **home/vagrant/code** path where the app is located 
+- Go to  **home/vagrant/code** path where the app is located 
 - Run the test with  command **vendor/bin/phpunit**
 - Run the migrations with **php artisan migrate** command
-- seed the database with random content **php artisan db:seed**
- - access [devicedetector.test](http://devicedetector.test/device-info)
+- Seed the database with random content **php artisan db:seed**
+ - Access [devicedetector.test](http://devicedetector.test/device-info)
  
  ## Endpoints
 
