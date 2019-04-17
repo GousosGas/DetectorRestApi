@@ -1,5 +1,5 @@
-This is my solution for the device detector challenge.
-It is a REST Api that stores user's public ip, device information and his OS.
+
+A REST Api that stores user's public ip, device information and his OS.
 
 
 
